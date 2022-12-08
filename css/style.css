@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #04f63c;
 }
 
 .layout_padding {
@@ -46,7 +46,7 @@ body {
   width: 250px;
   border: none;
   height: 1.5px;
-  background-color: #0000ff;
+  background-color: #ff0000;
   margin: 0 5px 0.5rem 5px;
 }
 
