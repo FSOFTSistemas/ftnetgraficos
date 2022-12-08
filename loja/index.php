@@ -55,18 +55,18 @@ define( "LIB", APP . "lib/" );
 define( "DATABASEDIR", APP . "database/" );
 define( "REALPATH", dirname( __FILE__ ) );
 define( "REALPATH_APP", dirname( __FILE__ ) . "/" . APP );
-# Não alterar
+# Nï¿½o alterar
 if ( file_exists( CLASSDIR . 'PHPFrodo.class.php' ) )
 {
     require_once CLASSDIR . 'PHPFrodo.class.php';
 }
 else
 {
-    echo "PHPFrodo.class.php não encontrado!";
+    echo "PHPFrodo.class.php nï¿½o encontrado!";
     exit;
 }
 # Subdirs e base configurados em .htaccess
-# não alterar
+# nï¿½o alterar
 if ( isset( $_GET['dir'] ) && $_GET['dir'] != '' )
 {
     if ( substr( $_GET['dir'], -1 ) != '/' )
@@ -104,7 +104,7 @@ if ( isset( $_GET['route'] ) )
     {
         $action = $routes[1];
         $obj = new $class;
-        # metodo inicial quando nenhum é passado na uri welcome()
+        # metodo inicial quando nenhum ï¿½ passado na uri welcome()
         # padronizar apenas se welcome() deve ser o metodo inicial
         ( method_exists( $obj, $action ) ) ? $obj->$action() : $obj->welcome();
     }
