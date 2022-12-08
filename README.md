@@ -1,2 +1,2 @@
 # ftnetgraficos
-# loja.ftnetgraficos
+# loja.ftnetgraficos.com.br
